@@ -12,7 +12,7 @@ export default {
   input: 'src/index.js',
   output: {
     name: 'CSP',
-    file: 'dist/csp.js',
+    file: 'dist/csp-generator.js',
     format: 'umd',
     sourcemap: !isProd,
   },

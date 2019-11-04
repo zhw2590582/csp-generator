@@ -1,16 +1,16 @@
 {
-  "name": "csp.js",
+  "name": "csp-generator",
   "version": "1.0.0",
   "description": "Content Security Policy Generator",
-  "main": "dist/dida.js",
+  "main": "dist/csp-generator.js",
   "scripts": {
     "dev": "npx cross-env NODE_ENV=development rollup -c -m -w",
     "build": "npx cross-env NODE_ENV=production rollup -c",
-    "test": "npx eslint src"
+    "test": "npx eslint src && node ./test/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhw2590582/csp.js.git"
+    "url": "git+https://github.com/zhw2590582/csp-generator.git"
   },
   "keywords": [
     "csp"
@@ -18,9 +18,9 @@
   "author": "Harvey Zack <laozhaochaguan@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zhw2590582/csp.js/issues"
+    "url": "https://github.com/zhw2590582/csp-generator/issues"
   },
-  "homepage": "https://github.com/zhw2590582/csp.js#readme",
+  "homepage": "https://github.com/zhw2590582/csp-generator#readme",
   "devDependencies": {
     "@babel/core": "^7.6.0",
     "@babel/plugin-external-helpers": "^7.2.0",

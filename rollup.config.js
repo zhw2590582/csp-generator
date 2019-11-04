@@ -45,7 +45,7 @@ export default {
         output: {
           preamble:
             '/*!\n' +
-            ` * csp.js v${version}\n` +
+            ` * csp-generator.js v${version}\n` +
             ` * Github: ${homepage}\n` +
             ` * (c) 2017-${new Date().getFullYear()} Harvey Zack\n` +
             ' * Released under the MIT License.\n' +

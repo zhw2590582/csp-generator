@@ -27,7 +27,7 @@ export default class CPS {
     } else {
       this.csp[key] = [value];
     }
-    return this.csp[key];
+    return this;
   }
 
   delete(key, value) {
@@ -39,6 +39,7 @@ export default class CPS {
     } else {
       delete this.csp[key];
     }
+    return this;
   }
 
   get(key) {

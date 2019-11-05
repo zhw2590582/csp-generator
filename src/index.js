@@ -22,7 +22,7 @@ export default class CPS {
   }
 
   append(key, value) {
-    if (this.csp[key]) {
+    if (this.csp[key] && this.csp[key].indexOf(value) === -1) {
       this.csp[key].push(value);
     } else {
       this.csp[key] = [value];

@@ -1,6 +1,6 @@
 {
   "name": "csp-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Content Security Policy Generator",
   "main": "dist/csp-generator.js",
   "scripts": {
